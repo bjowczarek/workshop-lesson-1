@@ -14,10 +14,14 @@ public class HelloWorldApplication extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Label label = new Label("I'm Gregor");
+        // CHANEG HERE: Run application. Close it and change "Hello World" with some other text.
+        // ИЗМЕНИТЕ ЗДЕСЬ: Запустите программу. Закройте его и измените «Hello World» другим текстом.
+        Label label = new Label("Hello World");
+        
         label.setAlignment(Pos.CENTER);
         Scene scene = new Scene(label, 500, 350);
-
+        // CHANEG HERE: Run application. Close it and change "Hello World Application" with some other text.
+        // ИЗМЕНИТЕ ЗДЕСЬ: Запустите программу. Закройте его и измените «Hello WorldApplication» другим текстом.
         primaryStage.setTitle("Hello World Application");
         primaryStage.setScene(scene);
         primaryStage.show();

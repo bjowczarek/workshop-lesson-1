@@ -1,8 +1,5 @@
 package example;
 
-// -*- mode:java; encoding:utf-8 -*-
-// vim:set fileencoding=utf-8:
-// @homepage@
 import java.awt.*;
 import java.util.Arrays;
 import java.util.List;
@@ -22,25 +19,19 @@ public class MainPanel extends JPanel {
 
     public MainPanel() {
         super(new BorderLayout());
-        // RadioButton.disabledText
-        // ComboBox.disabledForeground
-        // ComboBox.disabledBackground
-        // Label.disabledForeground
-        // CheckBoxMenuItem.disabledForeground
-        // CheckBox.disabledText
-        // Label.disabledShadow
-        // ToggleButton.disabledText
-        // RadioButtonMenuItem.disabledForeground
-        // Button.disabledToolBarBorderBackground
-        // Menu.disabledForeground
-        // MenuItem.disabledForeground
-        // Button.disabledText
+        
+        // CHANEG HERE: Run application. Close it and change Color.<something> with one from dropdown menu.
+        // ИЗМЕНИТЕ ЗДЕСЬ: Запустите программу. Закройте его и измените Color.<цвет> с одним из раскрывающегося меню.
 
         UIManager.put("CheckBox.disabledText", Color.RED);
         UIManager.put("ComboBox.disabledForeground", Color.GREEN);
         UIManager.put("Button.disabledText", Color.YELLOW);
         UIManager.put("Label.disabledForeground", Color.ORANGE);
 
+        /*
+         * Ignore 
+         * игнорировать
+         */
         cbx.addActionListener(e -> {
             boolean flg = ((JCheckBox) e.getSource()).isSelected();
             clist.forEach(c -> c.setEnabled(flg));

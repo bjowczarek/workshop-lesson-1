@@ -16,3 +16,11 @@ Exercises for Java programming basic course
 * vscjava.vscode-java-test-0.8.0
 * vscjava.vscode-maven-0.11.0
 * sohibe.java-generate-setters-getters-3.2.2
+
+## Exercises
+1. Check how simple is to change printed text.
+2. Check how to change grafical elements look.
+3. Talk with Java in your own language. Try to find unexpected behaviour.
+4. Try to run previously compiled code from command line with additional argument.
+> java -cp Project3Lesson1/bin/ example.Application English
+> java -cp Project3Lesson1/bin/ example.Application русский
