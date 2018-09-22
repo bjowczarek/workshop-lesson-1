@@ -22,5 +22,13 @@ Exercises for Java programming basic course
 2. Check how to change grafical elements look.
 3. Talk with Java in your own language. Try to find unexpected behaviour.
 4. Try to run previously compiled code from command line with additional argument.
-> java -cp Project3Lesson1/bin/ example.Application English
-> java -cp Project3Lesson1/bin/ example.Application русский
+> java -cp Project3Lesson1/bin/ example.Application English \n
+> java -cp Project3Lesson1/bin/ example.Application русский \n
+
+## Упражнениa
+1. Проверьте, насколько просто изменить печатный текст.
+2. Проверьте, как изменить внешний вид графических элементов.
+3. Поговорите с Java на своем родном языке. Попытайтесь найти неожиданное поведение.
+4. Попробуйте выполнить ранее скомпилированный код из командной строки с дополнительным аргументом.
+> java -cp Project3Lesson1/bin/ example.Application English \n
+> java -cp Project3Lesson1/bin/ example.Application русский \n
