@@ -22,7 +22,7 @@ public class Application {
     * static class variables are going to be explained later статические переменные
     * класса будут объяснены позже
     *********************************************************/ 
-    // CHANEG HERE: write "English" or "русский"
+    // CHANGE HERE: write "English" or "русский"
     // ИЗМЕНИТЕ ЗДЕСЬ: напишите "English" или "русский",
     private static String language = "русский";
     private static String[] questionsEnglish = {

@@ -18,17 +18,17 @@ Exercises for Java programming basic course
 * sohibe.java-generate-setters-getters-3.2.2
 
 ## Exercises
-1. Check how simple is to change printed text.
-2. Check how to change grafical elements look.
-3. Talk with Java in your own language. Try to find unexpected behaviour.
+1. Check how simple is to change printed text. Modify code in "CHANGE HERE" section. 
+2. Check how to change grafical elements look. Modify code in "CHANGE HERE" section
+3. Talk with Java in your own language. Try to find unexpected behaviour. Modify code in "CHANGE HERE" section
 4. Try to run previously compiled code from command line with additional argument.
 > java -cp Project3Lesson1/bin/ example.Application English  
 > java -cp Project3Lesson1/bin/ example.Application русский  
 
 ## Упражнениa
-1. Проверьте, насколько просто изменить печатный текст.
-2. Проверьте, как изменить внешний вид графических элементов.
-3. Поговорите с Java на своем родном языке. Попытайтесь найти неожиданное поведение.
+1. Проверьте, насколько просто изменить печатный текст. Изменитe код в разделе "изменить здесь". 
+2. Проверьте, как изменить внешний вид графических элементов.  Изменитe код в разделе "изменить здесь".
+3. Поговорите с Java на своем родном языке. Попытайтесь найти неожиданное поведение.  Изменитe код в разделе "изменить здесь".
 4. Попробуйте выполнить ранее скомпилированный код из командной строки с дополнительным аргументом.
 > java -cp Project3Lesson1/bin/ example.Application English  
 > java -cp Project3Lesson1/bin/ example.Application русский  

@@ -20,7 +20,7 @@ public class MainPanel extends JPanel {
     public MainPanel() {
         super(new BorderLayout());
         
-        // CHANEG HERE: Run application. Close it and change Color.<something> with one from dropdown menu.
+        // CHANGE HERE: Run application. Close it and change Color.<something> with one from dropdown menu.
         // ИЗМЕНИТЕ ЗДЕСЬ: Запустите программу. Закройте его и измените Color.<цвет> с одним из раскрывающегося меню.
 
         UIManager.put("CheckBox.disabledText", Color.RED);
