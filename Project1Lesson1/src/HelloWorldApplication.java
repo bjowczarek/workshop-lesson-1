@@ -22,7 +22,7 @@ public class HelloWorldApplication extends Application {
         Scene scene = new Scene(label, 500, 350);
         // CHANGE HERE: Run application. Close it and change "Hello World Application" with some other text.
         // ИЗМЕНИТЕ ЗДЕСЬ: Запустите программу. Закройте его и измените «Hello WorldApplication» другим текстом.
-        primaryStage.setTitle("Hello World Application");
+        primaryStage.setTitle("Hello Java Application");
         primaryStage.setScene(scene);
         primaryStage.show();
     }
