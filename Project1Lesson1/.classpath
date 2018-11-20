@@ -5,6 +5,7 @@
       <attribute name="module" value="true"/>
     </attributes>
   </classpathentry>
+  <classpathentry kind="lib" path="/usr/lib/jvm/java-10-openjdk-amd64/jre/lib/ext/jfxrt.jar" />
   <classpathentry kind="src" path="src"/>
   <classpathentry kind="output" path="bin"/>
 </classpath>
