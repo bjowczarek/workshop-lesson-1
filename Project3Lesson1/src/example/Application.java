@@ -24,7 +24,7 @@ public class Application {
     *********************************************************/ 
     // CHANGE HERE: write "English" or "русский"
     // ИЗМЕНИТЕ ЗДЕСЬ: напишите "English" или "русский",
-    private static String language = "русский";
+    private static String language = "English";
     private static String[] questionsEnglish = {
         "What is your name?",
         "What is your surname?",
