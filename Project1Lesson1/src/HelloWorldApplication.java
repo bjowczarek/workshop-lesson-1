@@ -1,39 +1,37 @@
-import javafx.application.Application;
-import javafx.geometry.Pos;
-import javafx.scene.*;
-import javafx.scene.control.Label;
-import javafx.stage.Stage;
 
-public class HelloWorldApplication extends Application {
+import java.awt.event.*;
+import java.awt.*;
+import javax.swing.*;
 
-    @Override
-    public void init() throws Exception {
-        super.init();
-        System.out.println("Inside init() method! Perform necessary initializations here.");
-    }
-
-    @Override
-    public void start(Stage primaryStage) throws Exception {
-        // CHANGE HERE: Run application. Close it and change "Hello World" with some other text.
-        // ИЗМЕНИТЕ ЗДЕСЬ: Запустите программу. Закройте его и измените «Hello World» другим текстом.
-        Label label = new Label("Hello World");
-        
-        label.setAlignment(Pos.CENTER);
-        Scene scene = new Scene(label, 500, 350);
-        // CHANGE HERE: Run application. Close it and change "Hello World Application" with some other text.
-        // ИЗМЕНИТЕ ЗДЕСЬ: Запустите программу. Закройте его и измените «Hello WorldApplication» другим текстом.
-        primaryStage.setTitle("Hello Java Application");
-        primaryStage.setScene(scene);
-        primaryStage.show();
-    }
-
-    @Override
-    public void stop() throws Exception {
-        super.stop();
-        System.out.println("Inside stop() method! Destroy resources. Perform Cleanup.");
-    }
-
+class HelloWorldApplication extends JFrame {
+    static final long serialVersionUID = 1235567788L;
+    
     public static void main(String[] args) {
-        launch(args);
+        JLabel label;
+        JFrame frame;
+        // CHANGE HERE: Run application. Close it and change "Hello World Application"
+        // with some other text.
+        // ИЗМЕНИТЕ ЗДЕСЬ: Запустите программу. Закройте его и измените «Hello
+        // WorldApplication» другим текстом.
+        frame = new JFrame("Hello World Application");
+
+        // CHANGE HERE: Run application. Close it and change "Hello World" with some
+        // other text.
+        // ИЗМЕНИТЕ ЗДЕСЬ: Запустите программу. Закройте его и измените «Hello World»
+        // другим текстом.
+        label = new JLabel("Hello World");
+        /**********************************/
+        
+        label.setHorizontalAlignment(JLabel.CENTER);
+        label.setVerticalAlignment(JLabel.CENTER);
+        JPanel p = new JPanel();
+        p.setBackground(Color.red);
+        p.setLayout(new BorderLayout());
+        p.add(label, BorderLayout.CENTER);
+        frame.add(p);
+        frame.setSize(300, 300);
+        frame.setLocationRelativeTo(null);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setVisible(true);
     }
 }
